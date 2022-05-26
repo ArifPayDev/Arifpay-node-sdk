@@ -1,0 +1,31 @@
+{
+  "name": "arifpay",
+  "version": "1.0.0",
+  "description": "Arifpay API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arifpay-net/Arifpay-node-sdk.git"
+  },
+  "keywords": [
+    "arifpay",
+    "payment",
+    "processing",
+    "credit",
+    "cards",
+    "api",
+    "ethiopia"
+  ],
+  "author": "Arifpay <dev@arifpay.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arifpay-net/Arifpay-node-sdk/issues"
+  },
+  "homepage": "https://github.com/Arifpay-net/Arifpay-node-sdk#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
