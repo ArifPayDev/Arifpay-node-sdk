@@ -1,3 +1,6 @@
+const ArifpayException = require("./exception/arifpayexception");
+
+ArifpayException
 function Checkout(httpclient) {
     this.httpclient = httpclient;
 }
@@ -8,7 +11,7 @@ Checkout.prototype = {
             let response = await this.httpclient.post("/checkout/session");
             return response.data.data;
         } catch (error) {
-            throw ArifpayException()
+            throw new ArifpayException(error.message)
         }
     }
 }

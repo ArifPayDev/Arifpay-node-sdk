@@ -32,7 +32,7 @@ function Arifpay(key, config = {}) {
 
 Arifpay.prototype = {
     _getPropsFromConfig: function (config) {},
-    checkout: new Checkout(Arifpay._httpClient)
+    checkout: new Checkout(this._httpClient)
 }
 
 module.exports = Arifpay;
